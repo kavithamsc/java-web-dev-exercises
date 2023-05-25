@@ -15,7 +15,7 @@ public class Miles {
          numGallon = input.nextDouble();
          input.close();
 
-         mpg = numMiles / numGallon;
+         mpg = numMiles /numGallon;
          System.out.println("Total number of gas used for per miles "+ mpg + "mpg");
 
 

@@ -10,10 +10,10 @@ public class Alice {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a term to search for: ");
         String searchTerm = scanner.nextLine().toLowerCase();
-        Integer index = firstSentence.indexOf(searchTerm);
-        Integer length = searchTerm.length();
+        int index = firstSentence.indexOf(searchTerm);
+        int length = searchTerm.length();
         System.out.println("Your search term first appears at index " + index + ". Your term is " + length + " characters long.");
-        String modifiedSentence = firstSentence.replace(searchTerm, "");
+        String modifiedSentence = firstSentence.replace(searchTerm,"");
         System.out.println(modifiedSentence);
     }
 }

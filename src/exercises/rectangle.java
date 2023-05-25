@@ -16,7 +16,7 @@ public class rectangle {
         width = input.nextDouble();
         input.close();
 
-        area = length * width;
+        area = length*width;
         System.out.println("Area of the rectangle is "+ area +"cm^2");
 
     }
