@@ -14,6 +14,9 @@ public class Cat {
     }
 
     /**** Getters and Setters ****/
+    public  Cat(){
+        weight = 13;
+    }
 
     public boolean isTired() {
         return tired;
